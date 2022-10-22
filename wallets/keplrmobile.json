@@ -1,0 +1,14 @@
+{
+  "$schema": "../wallet.schema.json",
+  "wallet_name": "keplrmobile",
+  "pretty_name": "Keplr Wallet (Mobile App)",
+  "website": "https://www.keplr.app/",
+  "platforms": [
+    "mobile_app"
+  ],
+  "has_suggest_feature": false,
+  "supported_chains": [
+    "cosmoshub",
+    "osmosis",
+  ]
+}

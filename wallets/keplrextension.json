@@ -8,10 +8,8 @@
     "firefox"
   ],
   "install_links": {
-    "browser_extension": {
-      "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en"
-      "firefox": "https://addons.mozilla.org/en-US/firefox/addon/keplr/"
-    }
+    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en"
+    "firefox": "https://addons.mozilla.org/en-US/firefox/addon/keplr/"
   },
   "has_suggest_feature": true,
   "supported_chains": [

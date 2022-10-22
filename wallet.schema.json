@@ -27,11 +27,33 @@
       "items": {
         "type": "string",
         "enum": [
-          "browser_extension",
-          "desktop_app",
-          "mobile_app"
+          "chrome",
+          "firefox",
+          "ios",
+          "android"
         ],
         "minContains": 1
+      }
+    },
+    "install_links": {
+      "type": "object",
+      "properties": {
+        "chrome": {
+          "type": "string",
+          "format": "uri"
+        },
+        "firefox": {
+          "type": "string",
+          "format": "uri"
+        },
+        "ios": {
+          "type": "string",
+          "format": "uri"
+        },
+        "android": {
+          "type": "string",
+          "format": "uri"
+        }
       }
     },
     "has_suggest_feature": {

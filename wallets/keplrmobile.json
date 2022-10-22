@@ -4,8 +4,13 @@
   "pretty_name": "Keplr Wallet (Mobile App)",
   "website": "https://www.keplr.app/",
   "platforms": [
-    "mobile_app"
+    "ios",
+    "android"
   ],
+  "install_links": {
+    "ios": "https://apps.apple.com/us/app/keplr-wallet/id1567851089"
+    "android": "https://play.google.com/store/apps/details?id=com.chainapsis.keplr"
+  },
   "has_suggest_feature": false,
   "supported_chains": [
     "cosmoshub",

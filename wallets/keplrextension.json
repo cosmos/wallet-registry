@@ -1,14 +1,16 @@
 {
   "$schema": "../wallet.schema.json",
   "wallet_name": "keplrextension",
-  "pretty_name": "Keplr Wallet (Browser Extension)",
+  "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
+  "device": "desktop",
+  "is_extension": true,
   "platforms": [
     "chrome",
     "firefox"
   ],
   "install_links": {
-    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en"
+    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en",
     "firefox": "https://addons.mozilla.org/en-US/firefox/addon/keplr/"
   },
   "has_suggest_feature": true,

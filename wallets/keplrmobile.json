@@ -1,14 +1,16 @@
 {
   "$schema": "../wallet.schema.json",
   "wallet_name": "keplrmobile",
-  "pretty_name": "Keplr Wallet (Mobile App)",
+  "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
+  "device": "mobile",
+  "is_extension": false,
   "platforms": [
     "ios",
     "android"
   ],
   "install_links": {
-    "ios": "https://apps.apple.com/us/app/keplr-wallet/id1567851089"
+    "ios": "https://apps.apple.com/us/app/keplr-wallet/id1567851089",
     "android": "https://play.google.com/store/apps/details?id=com.chainapsis.keplr"
   },
   "has_suggest_feature": false,

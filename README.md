@@ -11,8 +11,10 @@ For example, here is the schema for Keplr Wallet's browser extension:
 {
   "$schema": "../wallet.schema.json",
   "wallet_name": "keplrextension",
-  "pretty_name": "Keplr Wallet (Browser Extension)",
+  "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
+  "device": "desktop",
+  "is_extension": true,
   "platforms": [
     "chrome",
     "firefox"

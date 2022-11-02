@@ -20,7 +20,7 @@ For example, here is the schema for Keplr Wallet's browser extension:
     "firefox"
   ],
   "install_links": {
-    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en"
+    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap",
     "firefox": "https://addons.mozilla.org/firefox/addon/keplr/"
   },
   "has_suggest_feature": true,

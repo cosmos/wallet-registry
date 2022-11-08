@@ -22,6 +22,18 @@
       "type": "string",
       "format": "url"
     },
+    "device": {
+      "type": "string",
+      "oneOf": [
+        "mobile",
+        "tablet"
+        "desktop",
+        "other"
+      ]
+    },
+    "is_extension": {
+      "type": "boolean"
+    },
     "platforms": {
       "type": "array",
       "items": {

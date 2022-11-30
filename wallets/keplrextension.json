@@ -3,19 +3,50 @@
   "wallet_name": "keplrextension",
   "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
-  "device": "desktop",
-  "is_extension": true,
-  "platforms": [
-    "chrome",
-    "firefox"
-  ],
-  "install_links": {
-    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap",
-    "firefox": "https://addons.mozilla.org/firefox/addon/keplr/"
-  },
-  "has_suggest_feature": true,
+  "git_repo": "https://github.com/chainapsis/keplr-wallet",
   "supported_chains": [
     "cosmoshub",
-    "osmosis"
+    "osmosis",
+    "secretnetwork",
+    "regen",
+    "akash",
+    "sifchain",
+    "stargaze",
+    "sentinel",
+    "persistence",
+    "kava",
+    "cryptoorgchain",
+    "irisnet",
+    "agoric",
+    "axelar",
+    "certik",
+    "ixo",
+    "emoney",
+    "juno",
+    "sommelier",
+    "umee",
+    "evmos",
+    "bostrom",
+    "starname",
+    "gravitybridge",
+    "stride",
+    "tgrade"
+  ],
+  "features": [
+    "suggest_chain"
+  ],
+  "platforms": [
+    {
+      "device": "desktop",
+      "type": "extension",
+      "platform": "chrome",
+      "install_link": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap",
+    },
+    {
+      "device": "desktop",
+      "type": "extension",
+      "platform": "firefox",
+      "install_link": "https://addons.mozilla.org/firefox/addon/keplr/",
+    }
   ]
 }

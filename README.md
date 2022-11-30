@@ -10,7 +10,7 @@ For example, here is the schema for Keplr Wallet's browser extension:
 ```
 {
   "$schema": "../wallet.schema.json",
-  "wallet_name": "keplr mobile",
+  "wallet_name": "keplrmobile",
   "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
   "git_repo": "https://github.com/chainapsis/keplr-wallet",

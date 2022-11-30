@@ -22,60 +22,67 @@
       "type": "string",
       "format": "url"
     },
-    "device": {
-      "type": "string",
-      "oneOf": [
-        "mobile",
-        "tablet"
-        "desktop",
-        "other"
-      ]
-    },
-    "is_extension": {
-      "type": "boolean"
-    },
-    "platforms": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "enum": [
-          "chrome",
-          "firefox",
-          "ios",
-          "android"
-        ],
-        "minContains": 1
-      }
-    },
-    "install_links": {
-      "type": "object",
-      "properties": {
-        "chrome": {
-          "type": "string",
-          "format": "uri"
-        },
-        "firefox": {
-          "type": "string",
-          "format": "uri"
-        },
-        "ios": {
-          "type": "string",
-          "format": "uri"
-        },
-        "android": {
-          "type": "string",
-          "format": "uri"
-        }
-      }
-    },
-    "has_suggest_feature": {
-      "type": "boolean"
-    },
     "supported_chains": {
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "[a-z]+"
+        "pattern": "[a-z0-9]+"
+      },
+      "minContains": 1
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "suggest_chain",
+          "get_supported_chains"
+        ]
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "device": {
+            "type": "string",
+            "enum": [
+              "mobile",
+              "tablet",
+              "desktop",
+              "other"
+            ]
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "application",
+              "extension"
+            ]
+          },
+          "platform": {
+            "type": "string",
+            "enum": [
+              "chrome",
+              "firefox",
+              "ios",
+              "android",
+              "otherOS",
+              "otherBrowser"
+            ]
+          },
+          "install_link": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "device",
+          "type",
+          "platform"
+        ]
       },
       "minContains": 1
     }

@@ -10,23 +10,31 @@ For example, here is the schema for Keplr Wallet's browser extension:
 ```
 {
   "$schema": "../wallet.schema.json",
-  "wallet_name": "keplrextension",
+  "wallet_name": "keplrmobile",
   "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
-  "device": "desktop",
-  "is_extension": true,
-  "platforms": [
-    "chrome",
-    "firefox"
-  ],
-  "install_links": {
-    "chrome": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap",
-    "firefox": "https://addons.mozilla.org/firefox/addon/keplr/"
-  },
-  "has_suggest_feature": true,
+  "git_repo": "https://github.com/chainapsis/keplr-wallet",
   "supported_chains": [
     "cosmoshub",
     "osmosis"
+  ],
+  "features": [
+    "suggest_chain",
+    "get_supported_chains"
+  ],
+  "platforms": [
+    {
+      "device": "mobile",
+      "type": "application",
+      "platform": "ios",
+      "install_link": "apple/app-store.com/cryptowallet",
+    },
+    {
+      "device": "mobile",
+      "type": "application",
+      "platform": "android",
+      "install_link": "google/play-store.com/cryptowallet",
+    }
   ]
 }
 ```

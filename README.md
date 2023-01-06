@@ -8,12 +8,14 @@ Wallet data contains information needed to allow dApps to associate wallets with
 
 ### Supported Chains
 
-Each wallet entry/file has its own unique set of supported chains. Since the Keplr browser extension and Keplr mobile application support different chains, they each have their own file.  
+Supported chains must be registered to the [Cosmos Chain Registry](https://github.com/cosmos/chain-registry), and should be written exactly as defined in the Chain Registry (as folder name or `chain_name`). E.g., use `'cosmoshub'`, not `'Cosmos Hub'`.
+
+A wallet provider only needs a single file if the list of supported chains is identicial on all platforms, but may instead need to create multiple files, one for each platform with a unique set of supported chains. E.g., since Keplr's browser extensions support a different set of chains than their mobile apps support, they instead have two files: _keplrextension.json_ and _keplrmobile.json_, each defining a different set of supported chains.
 
 ### Features
 
 The 'features' array contains allows a limited set of features to be defined:
-- suggest-chain:  referes to Keplr's experimental suggest chain feature. See: https://docs.keplr.app/api/suggest-chain.html
+- suggest-chain:  referes to an experimental suggest chain feature. E.g., See Keplr's: https://docs.keplr.app/api/suggest-chain.html
 - get-supported-chains: a feature that returns a list of chains supported by the wallet.
 
 ### Platforms

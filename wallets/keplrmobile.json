@@ -44,6 +44,9 @@
     "starname",
     "gravitybridge"
   ],
+  "features": [
+    "icns"
+  ],
   "platforms": [
     {
       "device": "mobile",

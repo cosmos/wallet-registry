@@ -36,7 +36,8 @@
         "type": "string",
         "enum": [
           "suggest_chain",
-          "get_supported_chains"
+          "get_supported_chains",
+          "icns"
         ]
       }
     },

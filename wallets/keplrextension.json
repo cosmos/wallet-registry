@@ -33,7 +33,8 @@
     "tgrade"
   ],
   "features": [
-    "suggest_chain"
+    "suggest_chain",
+    "icns"
   ],
   "platforms": [
     {

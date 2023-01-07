@@ -44,6 +44,7 @@ Here is an example wallet entry:
   ],
   "features": [
     "suggest_chain",
+    "icns"
     "get_supported_chains"
   ],
   "platforms": [

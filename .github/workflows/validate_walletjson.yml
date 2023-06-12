@@ -1,14 +1,23 @@
-on: [pull_request, workflow_dispatch]
-name: PR workflow
+on:
+  pull_request:
+    branches:
+      - main
+name: Pull request workflow
 jobs:
-  validate_chainjson:
+  validate_assetlists:
     name: Validate edited wallet.json
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+    
+      - uses: actions/checkout@v3
+          
+      - name: Install JSON-Schema-Validator
+        run: npm install -g jsonschema
+
       - name: Validate Wallet.json schema
-        uses: snapcart/json-schema-validator@v1.0.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          json_schema: ./wallet.schema.json
-          json_path_pattern: .*wallet.json$
+        run: |
+          for file in $(find . -name '*.wallet.json'); do
+            if ! jsonschema -i "$file" ./wallet.schema.json; then
+              exit 1
+            fi
+          done

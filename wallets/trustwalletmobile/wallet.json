@@ -26,5 +26,20 @@
       "platform": "android",
       "install_link": "https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp"
     }
+  ],
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/trustwalletmobile/images/logo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/trustwalletmobile/images/logo.svg"
+  },
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/trustwalletmobile/images/logo-text.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/trustwalletmobile/images/logo-text.svg",
+      "theme": {
+        "primary_color_hex": "#0500ff",
+        "circle": false,
+        "dark_mode": false
+      }
+    }
   ]
 }

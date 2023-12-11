@@ -1,5 +1,5 @@
 {
-  "$schema": "../wallet.schema.json",
+  "$schema": "../../wallet.schema.json",
   "wallet_name": "keplrmobile",
   "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
@@ -27,7 +27,7 @@
     "bitcanna",
     "bitsong",
     "ki",
-    "panacea"
+    "panacea",
     "juno",
     "sommelier",
     "umee",
@@ -44,21 +44,19 @@
     "starname",
     "gravitybridge"
   ],
-  "features": [
-    "icns"
-  ],
+  "features": ["icns"],
   "platforms": [
     {
       "device": "mobile",
       "type": "application",
       "platform": "ios",
-      "install_link": "https://apps.apple.com/app/keplr-wallet/id1567851089",
+      "install_link": "https://apps.apple.com/app/keplr-wallet/id1567851089"
     },
     {
       "device": "mobile",
       "type": "application",
       "platform": "android",
-      "install_link": "https://play.google.com/store/apps/details?id=com.chainapsis.keplr",
+      "install_link": "https://play.google.com/store/apps/details?id=com.chainapsis.keplr"
     }
   ]
 }

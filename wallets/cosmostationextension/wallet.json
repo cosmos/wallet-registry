@@ -1,9 +1,9 @@
 {
-  "$schema": "../wallet.schema.json",
-  "wallet_name": "cosmostation",
+  "$schema": "../../wallet.schema.json",
+  "wallet_name": "cosmostationextention",
   "pretty_name": "Cosmostation",
   "website": "https://www.cosmostation.io/",
-  "git_repo": "https://github.com/cosmostation/cosmostation-android",
+  "git_repo": "https://github.com/cosmostation/cosmostation-chrome-extension",
   "supported_chains": [
     "cosmoshub",
     "akash",
@@ -12,9 +12,9 @@
     "bandchain",
     "bitcanna",
     "bitsong",
+    "canto",
     "cerberus",
     "chihuahua",
-    "canto",
     "comdex",
     "coreum",
     "crescent",
@@ -54,24 +54,21 @@
     "shentu",
     "sifchain",
     "sommelier",
+    "stafihub",
     "stargaze",
     "starname",
     "stride",
     "teritori",
+    "tgrade",
     "umee"
   ],
+  "features": ["suggest_chain", "icns"],
   "platforms": [
     {
-      "device": "mobile",
-      "type": "application",
-      "platform": "ios",
-      "install_link": "https://apps.apple.com/kr/app/cosmostation/id1459830339"
-    },
-    {
-      "device": "mobile",
-      "type": "application",
-      "platform": "android",
-      "install_link": "https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion"
+      "device": "desktop",
+      "type": "extension",
+      "platform": "chrome",
+      "install_link": "https://chrome.google.com/webstore/detail/cosmostation/fpkhgmpbidmiogeglndfbkegfdlnajnf?utm_source=chrome-ntp-icon"
     }
   ]
 }

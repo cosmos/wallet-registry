@@ -1,5 +1,5 @@
 {
-  "$schema": "../wallet.schema.json",
+  "$schema": "../../wallet.schema.json",
   "wallet_name": "leapextension",
   "pretty_name": "Leap Cosmos Wallet",
   "website": "https://www.leapwallet.io/",

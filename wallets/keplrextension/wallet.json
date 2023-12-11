@@ -1,5 +1,5 @@
 {
-  "$schema": "../wallet.schema.json",
+  "$schema": "../../wallet.schema.json",
   "wallet_name": "keplrextension",
   "pretty_name": "Keplr",
   "website": "https://www.keplr.app/",
@@ -32,22 +32,19 @@
     "stride",
     "tgrade"
   ],
-  "features": [
-    "suggest_chain",
-    "icns"
-  ],
+  "features": ["suggest_chain", "icns"],
   "platforms": [
     {
       "device": "desktop",
       "type": "extension",
       "platform": "chrome",
-      "install_link": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap",
+      "install_link": "https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap"
     },
     {
       "device": "desktop",
       "type": "extension",
       "platform": "firefox",
-      "install_link": "https://addons.mozilla.org/firefox/addon/keplr/",
+      "install_link": "https://addons.mozilla.org/firefox/addon/keplr/"
     }
   ]
 }

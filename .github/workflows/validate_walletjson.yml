@@ -16,7 +16,7 @@ jobs:
 
       - name: Validate Wallet.json schema
         run: |
-          for file in $(find . -name '*.wallet.json'); do
+          for file in $(find . -name 'wallet.json'); do
             if ! jsonschema -i "$file" ./wallet.schema.json; then
               exit 1
             fi

@@ -59,37 +59,37 @@
       "install_link": "https://play.google.com/store/apps/details?id=com.chainapsis.keplr"
     }
   ],
-  "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo.png",
-    "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo.svg"
-  },
   "images": [
     {
-        "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo.svg",
-        "theme": {
-            "primary_color_hex": "#1BB8FF",
-            "circle": false,
-            "dark_mode": false
-        }
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#1BB8FF",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logomark"
     },
     {
-        "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text.svg",
-        "theme": {
-            "primary_color_hex": "#EBF7FD",
-            "circle": false,
-            "dark_mode": false
-        }
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text.svg",
+      "theme": {
+        "primary_color_hex": "#EBF7FD",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logo",
+      "text_position": "right"
     },
     {
-        "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text-dark.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text-dark.svg",
-        "theme": {
-            "primary_color_hex": "#0A0718",
-            "circle": false,
-            "dark_mode": true
-        }
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text-dark.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/keplrextension/images/logo-text-dark.svg",
+      "theme": {
+        "primary_color_hex": "#0A0718",
+        "circle": false,
+        "dark_mode": true
+      },
+      "layout": "logomark"
     }
   ]
 }

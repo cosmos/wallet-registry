@@ -46,19 +46,16 @@
       "install_link": "https://chrome.google.com/webstore/detail/leap-cosmos-wallet/fcfcfllfndlomdhbehjjcoimbgofdncg"
     }
   ],
-  "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.png",
-    "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.svg"
-  },
   "images": [
     {
-        "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.svg",
-        "theme": {
-            "primary_color_hex": "#32DA6D",
-            "circle": false,
-            "dark_mode": false
-        }
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#32DA6D",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logomark"
     }
   ]
 }

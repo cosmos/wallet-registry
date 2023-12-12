@@ -71,19 +71,16 @@
       "install_link": "https://chrome.google.com/webstore/detail/cosmostation/fpkhgmpbidmiogeglndfbkegfdlnajnf?utm_source=chrome-ntp-icon"
     }
   ],
-  "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationextension/images/logo.png",
-    "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationextension/images/logo.svg"
-  },
   "images": [
     {
-        "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationextension/images/logo.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationextension/images/logo.svg",
-        "theme": {
-            "primary_color_hex": "#9C6CFF",
-            "circle": false,
-            "dark_mode": false
-        }
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationextension/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationextension/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#9C6CFF",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logomark"
     }
   ]
 }

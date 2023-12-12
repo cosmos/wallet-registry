@@ -122,25 +122,6 @@
         },
         "additionalProperties": false
       }
-    },
-    "logo_URIs": {
-      "type": "object",
-      "properties": {
-        "png": {
-          "type": "string",
-          "format": "uri-reference",
-          "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/wallet-registry/main/(.*)\\.png$"
-        },
-        "svg": {
-          "type": "string",
-          "format": "uri-reference",
-          "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/wallet-registry/main/(.*)\\.svg$"
-        }
-      },
-      "required": [
-        "svg",
-        "png"
-      ]
     }
   },
   "additionalProperties": false,

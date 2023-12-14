@@ -118,12 +118,21 @@
         "if": {
           "properties": {
             "layout": { "const": "logo" }
-          }
+          },
+          "required": ["layout"]
         },
         "then": {
           "required": ["text_position"]
         },
-        "required": ["layout", "svg"],
+        "anyOf": [
+          {
+            "required": ["png"]
+          },
+          {
+            "required": ["svg"]
+          }
+        ],
+        "required": ["layout"],
         "additionalProperties": false
       }
     }

@@ -1,5 +1,5 @@
 {
-  "$schema": "../wallet.schema.json",
+  "$schema": "../../wallet.schema.json",
   "wallet_name": "cosmostation",
   "pretty_name": "Cosmostation",
   "website": "https://www.cosmostation.io/",
@@ -72,6 +72,18 @@
       "type": "application",
       "platform": "android",
       "install_link": "https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationmobile/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/cosmostationmobile/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#9C6CFF",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logomark"
     }
   ]
 }

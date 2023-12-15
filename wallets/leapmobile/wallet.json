@@ -1,5 +1,5 @@
 {
-  "$schema": "../wallet.schema.json",
+  "$schema": "../../wallet.schema.json",
   "wallet_name": "leapmobile",
   "pretty_name": "Leap cosmos",
   "website": "https://leapwallet.io",
@@ -44,6 +44,18 @@
       "type": "application",
       "platform": "android",
       "install_link": "https://play.google.com/store/apps/details?id=io.leapwallet.cosmos"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapmobile/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapmobile/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#32DA6D",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logomark"
     }
   ]
 }

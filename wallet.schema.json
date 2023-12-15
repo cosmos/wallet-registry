@@ -1,5 +1,6 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema",
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "https://json-schema.org/draft-07/schema",
   "title": "Cosmos Wallet",
   "description": "Cosmos Wallet.json is a metadata file that contains information about a wallet of a specific platform and which chains it supports, either natively or via custom client-side addition.",
   "type": "object",
@@ -34,11 +35,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": [
-          "suggest_chain",
-          "get_supported_chains",
-          "icns"
-        ]
+        "enum": ["suggest_chain", "get_supported_chains", "icns"]
       }
     },
     "platforms": {
@@ -48,19 +45,11 @@
         "properties": {
           "device": {
             "type": "string",
-            "enum": [
-              "mobile",
-              "tablet",
-              "desktop",
-              "other"
-            ]
+            "enum": ["mobile", "tablet", "desktop", "other"]
           },
           "type": {
             "type": "string",
-            "enum": [
-              "application",
-              "extension"
-            ]
+            "enum": ["application", "extension"]
           },
           "platform": {
             "type": "string",
@@ -79,13 +68,73 @@
           }
         },
         "additionalProperties": false,
-        "required": [
-          "device",
-          "type",
-          "platform"
-        ]
+        "required": ["device", "type", "platform"]
       },
       "minContains": 1
+    },
+    "images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "png": {
+            "type": "string",
+            "format": "uri-reference",
+            "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/wallet-registry/main/(.*)\\.png$"
+          },
+          "svg": {
+            "type": "string",
+            "format": "uri-reference",
+            "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/wallet-registry/main/(.*)\\.svg$"
+          },
+          "theme": {
+            "type": "object",
+            "properties": {
+              "primary_color_hex": {
+                "type": "string",
+                "pattern": "^#[0-9a-fA-F]{6}$"
+              },
+              "circle": {
+                "type": "boolean"
+              },
+              "dark_mode": {
+                "type": "boolean"
+              }
+            },
+            "minProperties": 1,
+            "additionalProperties": false
+          },
+          "layout": {
+            "type": "string",
+            "enum": ["logo", "logomark", "logotype"],
+            "description": "logomark == icon only; logotype == text only; logo == icon + text."
+          },
+          "text_position": {
+            "type": "string",
+            "enum": ["top", "bottom", "left", "right", "integrated"],
+            "description": "Indicates in which position the text is placed, in case the layout is 'icon' type, it's required only in this case."
+          }
+        },
+        "if": {
+          "properties": {
+            "layout": { "const": "logo" }
+          },
+          "required": ["layout"]
+        },
+        "then": {
+          "required": ["text_position"]
+        },
+        "anyOf": [
+          {
+            "required": ["png"]
+          },
+          {
+            "required": ["svg"]
+          }
+        ],
+        "required": ["layout"],
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false,
@@ -94,6 +143,7 @@
     "wallet_name",
     "pretty_name",
     "platforms",
-    "supported_chains"
+    "supported_chains",
+    "images"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "$schema": "../wallet.schema.json",
+  "$schema": "../../wallet.schema.json",
   "wallet_name": "leapextension",
   "pretty_name": "Leap Cosmos Wallet",
   "website": "https://www.leapwallet.io/",
@@ -44,6 +44,18 @@
       "type": "extension",
       "platform": "chrome",
       "install_link": "https://chrome.google.com/webstore/detail/leap-cosmos-wallet/fcfcfllfndlomdhbehjjcoimbgofdncg"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/leapextension/images/logo.svg",
+      "theme": {
+        "primary_color_hex": "#32DA6D",
+        "circle": false,
+        "dark_mode": false
+      },
+      "layout": "logomark"
     }
   ]
 }

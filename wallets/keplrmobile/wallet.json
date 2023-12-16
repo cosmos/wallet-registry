@@ -102,11 +102,11 @@
   },
   "mobile": {
     "ios": {
-      "bundleIdentifier": "com.chainapsis.keplrwallet",
+      "bundle_identifier": "com.chainapsis.keplrwallet",
       "schema": "keplrwallet"
     },
     "android": {
-      "packageName": "com.chainapsis.keplr",
+      "package_name": "com.chainapsis.keplr",
       "schema": "keplrwallet"
     }
   }

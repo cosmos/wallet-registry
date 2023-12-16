@@ -57,5 +57,23 @@
       },
       "layout": "logomark"
     }
-  ]
+  ],
+  "wallet_connect": {
+    "deeplink": {
+      "path": {
+        "android": "wcV2",
+        "ios": "wcV2"
+      }
+    }
+  },
+  "mobile": {
+    "ios": {
+      "bundleIdentifier": "com.LeapCosmosWallet",
+      "schema": "leapcosmos"
+    },
+    "android": {
+      "packageName": "io.leapwallet.cosmos",
+      "schema": "leapcosmos"
+    }
+  }
 }

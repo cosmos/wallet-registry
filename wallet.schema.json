@@ -160,7 +160,8 @@
             }
           }
         }
-      }
+      },
+      "additionalProperties": false
     },
     "mobile": {
       "type": "object",
@@ -168,7 +169,7 @@
         "android": {
           "type": "object",
           "properties": {
-            "packageName": {
+            "package_name": {
               "type": "string",
               "description": "The package name for your Android standalone app. You make it up, but it needs to be unique on the Play Store. See this [StackOverflow question](https://stackoverflow.com/questions/6273892/android-package-name-convention)."
             },
@@ -176,7 +177,7 @@
               "type": "string",
               "description": "Custom schema that provide a way to reference resources inside an app, documented [here](https://developer.android.com/training/app-links/deep-linking)."
             },
-            "universalSchema": {
+            "universal_schema": {
               "type": "string",
               "description": "Universal schema for universal deeplink that provide a way to reference resources inside an app, documented [here](https://developer.android.com/training/app-links)."
             }
@@ -185,7 +186,7 @@
         "ios": {
           "type": "object",
           "properties": {
-            "bundleIdentifier": {
+            "bundle_identifier": {
               "type": "string",
               "description": "The bundle identifier for your iOS standalone app. You make it up, but it needs to be unique on the App Store. See this [StackOverflow question](https://stackoverflow.com/questions/11347470/what-does-bundle-identifier-mean-in-an-ios-project)."
             },
@@ -193,13 +194,14 @@
               "type": "string",
               "description": "Custom URL schemes provide a way to reference resources inside an app, documented [here](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)."
             },
-            "universalSchema": {
+            "universal_schema": {
               "type": "string",
               "description": "Universal schema for universal deeplink that provide a way to reference resources inside an app, documented [here](https://developer.apple.com/ios/universal-links/)."
             }
           }
         }
-      }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false,

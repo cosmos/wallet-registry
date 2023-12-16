@@ -85,5 +85,13 @@
       },
       "layout": "logomark"
     }
-  ]
+  ],
+  "mobile": {
+    "ios": {
+      "bundle_identifier": "io.wannabit.cosmostation"
+    },
+    "android": {
+      "package_name": "wannabit.io.cosmostaion"
+    }
+  }
 }

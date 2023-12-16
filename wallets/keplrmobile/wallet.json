@@ -91,5 +91,23 @@
       },
       "layout": "logomark"
     }
-  ]
+  ],
+  "wallet_connect": {
+    "deeplink": {
+      "path": {
+        "android": "wcV2",
+        "ios": "wcV2"
+      }
+    }
+  },
+  "mobile": {
+    "ios": {
+      "bundleIdentifier": "com.chainapsis.keplrwallet",
+      "schema": "keplrwallet"
+    },
+    "android": {
+      "packageName": "com.chainapsis.keplr",
+      "schema": "keplrwallet"
+    }
+  }
 }

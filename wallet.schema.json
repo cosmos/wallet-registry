@@ -136,6 +136,32 @@
         "additionalProperties": false
       }
     },
+    "wallet_connect": {
+      "type": "object",
+      "properties": {
+        "deeplink": {
+          "type": "object",
+          "description": "define all the properties related to deeplink functionality.",
+          "properties": {
+            "path": {
+              "type": "object",
+              "description": "it is the path of the deelink URL that will trigger wallet connect actions within a mobile wallet.",
+              "properties": {
+                "ios": {
+                  "type": "string"
+                },
+                "android": {
+                  "type": "string"
+                },
+                "universal": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "mobile": {
       "type": "object",
       "properties": {
@@ -149,6 +175,10 @@
             "schema": {
               "type": "string",
               "description": "Custom schema that provide a way to reference resources inside an app, documented [here](https://developer.android.com/training/app-links/deep-linking)."
+            },
+            "universalSchema": {
+              "type": "string",
+              "description": "Universal schema for universal deeplink that provide a way to reference resources inside an app, documented [here](https://developer.android.com/training/app-links)."
             }
           }
         },
@@ -162,6 +192,10 @@
             "schema": {
               "type": "string",
               "description": "Custom URL schemes provide a way to reference resources inside an app, documented [here](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)."
+            },
+            "universalSchema": {
+              "type": "string",
+              "description": "Universal schema for universal deeplink that provide a way to reference resources inside an app, documented [here](https://developer.apple.com/ios/universal-links/)."
             }
           }
         }

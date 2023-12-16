@@ -50,5 +50,13 @@
       "layout": "logo",
       "text_position": "top"
     }
-  ]
+  ],
+  "mobile": {
+    "ios": {
+      "bundle_identifier": "com.sixdays.trust"
+    },
+    "android": {
+      "package_name": "com.wallet.crypto.trustapp"
+    }
+  }
 }

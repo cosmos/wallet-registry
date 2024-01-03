@@ -31,6 +31,10 @@
       },
       "minContains": 1
     },
+    "connection_type": {
+      "type": "string",
+      "enum": ["browser_extension", "wallet_connect"]
+    },
     "features": {
       "type": "array",
       "items": {

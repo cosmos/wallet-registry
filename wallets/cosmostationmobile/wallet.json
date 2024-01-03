@@ -2,6 +2,7 @@
   "$schema": "../../wallet.schema.json",
   "wallet_name": "cosmostation",
   "pretty_name": "Cosmostation",
+  "connection_type": "wallet_connect",
   "website": "https://www.cosmostation.io/",
   "git_repo": "https://github.com/cosmostation/cosmostation-android",
   "supported_chains": [

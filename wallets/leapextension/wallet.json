@@ -2,6 +2,7 @@
   "$schema": "../../wallet.schema.json",
   "wallet_name": "leapextension",
   "pretty_name": "Leap Cosmos Wallet",
+  "connection_type": "browser_extension",
   "website": "https://www.leapwallet.io/",
   "git_repo": "",
   "supported_chains": [

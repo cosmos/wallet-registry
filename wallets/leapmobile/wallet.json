@@ -2,6 +2,7 @@
   "$schema": "../../wallet.schema.json",
   "wallet_name": "leapmobile",
   "pretty_name": "Leap cosmos",
+  "connection_type": "wallet_connect",
   "website": "https://leapwallet.io",
   "git_repo": "",
   "supported_chains": [

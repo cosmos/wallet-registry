@@ -87,12 +87,22 @@
       "layout": "logomark"
     }
   ],
+  "wallet_connect": {
+    "deeplink": {
+      "path": {
+        "android": "wc",
+        "ios": "wc"
+      }
+    }
+  },
   "mobile": {
     "ios": {
-      "bundle_identifier": "io.wannabit.cosmostation"
+      "bundle_identifier": "io.wannabit.cosmostation",
+      "schema": "cosmostation"
     },
     "android": {
-      "package_name": "wannabit.io.cosmostaion"
+      "package_name": "wannabit.io.cosmostaion",
+      "schema": "cosmostation"
     }
   }
 }

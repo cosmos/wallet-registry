@@ -49,7 +49,7 @@
           "theme": {
             "primary_color_hex": "#78E6F9",
             "circle": false,
-            "dark_mode": false
+            "dark_mode": true
           },
           "layout": "logomark"
         },
@@ -59,7 +59,7 @@
           "theme": {
             "primary_color_hex": "#005283",
             "circle": false,
-            "dark_mode": true
+            "dark_mode": false
           },
           "layout": "logomark"
         },
@@ -69,7 +69,7 @@
           "theme": {
             "primary_color_hex": "#78E6F9",
             "circle": false,
-            "dark_mode": false
+            "dark_mode": true
           },
           "layout": "logo",
           "text_position": "right"
@@ -80,7 +80,7 @@
           "theme": {
             "primary_color_hex": "#005283",
             "circle": false,
-            "dark_mode": true
+            "dark_mode": false
           },
           "layout": "logo",
           "text_position": "right"

@@ -90,7 +90,8 @@
         "circle": false,
         "dark_mode": true
       },
-      "layout": "logomark"
+      "layout": "logo",
+      "text_position": "right"
     }
   ],
   "wallet_connect": {

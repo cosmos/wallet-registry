@@ -53,7 +53,7 @@
       "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/keplrextension/images/logo.png",
       "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/keplrextension/images/logo.svg",
       "theme": {
-        "primary_color_hex": "#1BB8FF",
+        "primary_color_hex": "#14AFEB",
         "circle": false,
         "dark_mode": false
       },
@@ -63,7 +63,7 @@
       "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/keplrextension/images/logo-text.png",
       "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/keplrextension/images/logo-text.svg",
       "theme": {
-        "primary_color_hex": "#EBF7FD",
+        "primary_color_hex": "#FFFFFF",
         "circle": false,
         "dark_mode": true
       },
@@ -74,7 +74,7 @@
       "png": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/keplrextension/images/logo-text-dark.png",
       "svg": "https://raw.githubusercontent.com/cosmos/wallet-registry/main/wallets/keplrextension/images/logo-text-dark.svg",
       "theme": {
-        "primary_color_hex": "#0A0718",
+        "primary_color_hex": "#2C2C2C",
         "circle": false,
         "dark_mode": false
       },
